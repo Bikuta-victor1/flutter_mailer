@@ -19,7 +19,7 @@ class _MailerWidgetState extends State<MailerWidget> {
     //Create our Message
     final message = Message()
       ..from = Address(username, 'Flutter Mail')
-      ..recipients.add('adekolavictor51@gmail.com')
+      ..recipients.add('destCc0@example.com')
       ..ccRecipients.addAll(['destCc1@example.com', 'destCc2@example.com'])
       ..bccRecipients.add(Address('bccAddress@example.com'))
       ..subject = 'Flutter Mailer'
